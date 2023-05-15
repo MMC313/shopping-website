@@ -1,0 +1,15 @@
+.content{
+   background-color: black;
+   color: #f3f3f3;
+}
+
+.content-overlay{
+    width: 100vw;
+
+}
+
+.content-description{
+    font-family: sans-serif;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
