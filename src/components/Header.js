@@ -28,7 +28,7 @@ function Header(){
             </div>
             <div className='dropdown-content'>
                 <a className='dropdown-content-link' href="">Home</a>
-                <a className='dropdown-content-link' href="">Shop PCs</a>
+                <a className='dropdown-content-link' href="">Shop Graphics Cards</a>
                 <a className='dropdown-content-link' href="">Contact</a>
             </div>
         </div>
