@@ -26,8 +26,6 @@
 
 .header-hub{
     display: flex;
-    
-    
 }
 
 .hubIcon{
@@ -68,7 +66,7 @@
     background-color:  #fdfcfd;
     width: 100vw;
     height: 0;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 12px 12px 0px rgba(0,0,0,0.2);
     z-index: 1;
     transition: height .5s;
   }
@@ -88,7 +86,9 @@
 }
 
 .visible-dropdown-content-link{
-    font-size: 7.5vw;
+    font-family: sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
     height: 12.5vw;
     transition: height .5s, font-size .5s;
 }
