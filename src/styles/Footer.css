@@ -1,0 +1,27 @@
+.footer{
+    font-family: sans-serif;
+    background-color: #1e1f24;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vw;
+    padding-top:  4vw ;
+    padding-bottom: 8vw
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.social button{
+    background-color: transparent;
+    border: none;
+}
+
+.social-icon{
+    filter: invert(88%) sepia(99%) saturate(71%) hue-rotate(228deg) brightness(118%) contrast(91%);
+    width: 9vw;
+}
