@@ -18,18 +18,19 @@ function Header(){
             <div className="header">
                 <h1 className='title'>MartianMachines</h1>
                 <div className='dropdown-button-container'>
-                    <button onClick={dropDown} className='dropdown-button'><img src={menu} alt="menu" /></button>
+                    <button onClick={dropDown} className='dropdown-button'><img src={menu} alt="menu" className='svg' /></button>
                 </div>
                 <img src={logo} alt="logo" className='logo'/>
                 <div className='header-hub'>
                     <img src={hubIcon} alt="GitHub Icon" className='hubIcon'/>
-                    <button className='cart'><img src={cart} alt="shopping cart" /></button>
+                    <button className='cart'><img src={cart} alt="shopping cart" className='svg' /></button>
                 </div>
             </div>
             <div className='dropdown-content'>
                 <a className='dropdown-content-link' href="">Home</a>
-                <a className='dropdown-content-link' href="">Shop Graphics Cards</a>
-                <a className='dropdown-content-link' href="">Contact</a>
+                <a className='dropdown-content-link' href="">Shop Cards</a>
+                <a className='dropdown-content-link' href="">Database</a>
+                <a className='dropdown-content-link' href="">Contact Us</a>
             </div>
         </div>
     )

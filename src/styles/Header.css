@@ -4,11 +4,11 @@
     align-items: center;
     padding-left: 3vw;
     padding-right: 3vw;
-    background-color: #fdfcfd;
+    background-color: black;
     color: black;
     position: relative;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
+    -webkit-tap-highlight-color: transparent;
 }
 
 .title{
@@ -17,8 +17,8 @@
 }
 
 .logo{
-    width: 20vw;
-    height: 20vw;
+    width: 17.5vw;
+    height: 17.5vw;
    
     
 }
@@ -37,6 +37,11 @@
     border: none;
     background-color: transparent;
     width: 10vw;
+
+}
+
+.svg{
+    filter: invert(88%) sepia(99%) saturate(71%) hue-rotate(228deg) brightness(118%) contrast(91%);
 }
 
 .header_nav{
@@ -48,9 +53,9 @@
 
 
 
-
 .dropdown-button-container{
     width: 20vw;
+    
     
 }
 
@@ -63,7 +68,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    background-color:  #fdfcfd;
+    background-color: black;
     width: 100vw;
     height: 0;
     box-shadow: 0px 12px 12px 0px rgba(0,0,0,0.2);
@@ -74,9 +79,9 @@
 .dropdown-content-link{
     display: flex;
     text-decoration: none;
-    color: black;
-    font-size: 0;
-    padding-left: 5vw;
+    color: #f3f3f3;
+    font-size: 0;   
+    padding: 0 5vw 0 5vw;
     align-items: center;
     height: 0;
 }
@@ -94,7 +99,7 @@
 }
 
 .visible-dropdown-content{
-    height: 37.5vw;
+    height: 52.5vw;
     transition: height .5s;
 }
 
