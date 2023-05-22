@@ -33,6 +33,14 @@ const scene1 = (
             <h3 className='home-content-testimonial-title'>WHY BUY FROM US?</h3>
             <div className='home-content-testimonial-info'>When it comes to purchasing graphics cards, Martian Machines offers a compelling choice that sets them apart from the competition. Their commitment to technological innovation and superior performance makes them an ideal choice for both gaming enthusiasts and professionals. Martian Machines' graphics cards are meticulously designed and optimized to deliver exceptional graphics rendering, allowing users to experience breathtaking visuals and immersive gaming experiences. Furthermore, their cards are built with the latest advancements in graphics processing technology, ensuring smooth gameplay and efficient multitasking capabilities. With a reputation for reliability and durability, Martian Machines provides a range of options to suit different budgets and requirements, making them a trusted brand in the world of graphics cards. Whether you're a casual gamer or a demanding professional, choosing Martian Machines means investing in cutting-edge technology that elevates your graphics experience to new heights.</div>
         </div>
+        <div className='home-content-awards'>
+            <img src={toms} alt="toms" className='home-content-award'/>
+            <img src={tomhw} alt="tomhw" className='home-content-award'/>
+            <img src={pc} alt="pc" className='home-content-award'/>
+            <img src={cnet} alt="cnet" className='home-content-award'/>
+            <img src={tweak} alt="tweak" className='home-content-award'/>
+            <img src={tech} alt="tech" className='home-content-award' />
+        </div>
     </div>
 )
 
