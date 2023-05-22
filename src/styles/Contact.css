@@ -1,0 +1,79 @@
+@keyframes fadeInRight{
+    from {
+        opacity: 0;
+        transform: translatex(40px);
+    }
+
+    to {
+        transform: translatex(0);
+        opacity: 1;
+    }
+}
+
+.contact-content{
+    background-color: #0f1012;
+    color: #f3f3f3;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+
+.contact-content-cards{
+    
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    
+ 
+}
+
+
+.contact-content-card{
+    
+    background-color: black;
+    margin-bottom: 1rem;
+    width: 300px;
+    animation: fadeInRight .5s
+    
+}
+
+.contact-content-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 1.5rem .75rem 1.5rem .75rem;
+    
+}
+
+.contact-content-card-title{
+    background-image: linear-gradient(225deg,#ae0006,#5f0406);
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contact-content-card-section{
+    margin-bottom: 1rem;
+}
+
+.contact-content-card-info-title{
+    margin-bottom: .5rem;
+}
+
+.contact-content-card-info{
+    color: #ae0006;
+}
+
+.contact-content-card-information{
+    padding: 20px;
+}
