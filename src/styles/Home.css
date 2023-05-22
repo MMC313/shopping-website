@@ -1,6 +1,21 @@
-.content{
-   background-color: black;
-   color: #f3f3f3;
+@keyframes fadeInRight{
+    from {
+        opacity: 0;
+        transform: translatex(40px);
+    }
+
+    to {
+        transform: translatex(0);
+        opacity: 1;
+    }
+}
+
+.home-content{
+    background-color: black;
+    color: #f3f3f3;
+    font-family: sans-serif;
+    min-height: 100vh;
+   
 }
 
 .content-overlay{
@@ -10,6 +25,143 @@
 
 .content-description{
     font-family: sans-serif;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding: 1.25rem 1.75rem 1.25rem 1.75rem;
+    animation: fadeInRight .5s;
+   
+}
+
+button{
+    cursor: pointer;
+}
+
+h2,h3,h4{
+    margin: 0
+}
+
+.content-description-h2{
+    margin-bottom: .25rem;
+    font-weight: 700;
+}
+
+.content-description-h3{
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.content-description-h4{
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.content-description-webname{
+    color: rgb(23, 219, 23);
+}
+
+.content-description-shopbtn{
+    border: none;
+    background-color: transparent;
+    color: #f3f3f3;
+    outline: 2px solid #f3f3f3;
+    border-radius: 2px;
+    font-size: .75rem;
+    padding: .75rem .75rem .75rem .75rem;
+    color: rgb(23, 219, 23);
+    margin-bottom: 3vh;
+}
+
+.content-description-shopbtn:active{
+    background-color: rgb(45, 45, 45);
+}
+
+.content-description-diablotitle,.content-description-ast{
+    color: red;
+}
+
+.content-description-game{
+    font-style: italic;
+}
+
+.content-description-smallprint{
+    color: #6c757d;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.home-content-testimonial{
+    display: flex;
+    background-color:  #191c1f;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+.home-content-testimonial-info{
+    font-size: .75rem;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+
+.home-content-awards{
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .home-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-content-main{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .content-description{
+        width: 50vw;
+        
+    }
+
+    .home-content-testimonial{
+        padding-left: 12rem;
+        padding-right: 12rem;
+    
+    }
+
+    .home-content-awards{
+        display: flex;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .home-content-award{
+        height: 7.5rem;
+    }
+
+
+    .content-overlay{
+        width: 50vw;
+        
+    }
+
+    .content-description{
+        padding-left: 5rem;
+        padding-right: 3rem;
+    
+    }
+
+    .content-overlay-naraka{
+        border-left: 1rem solid rgb(182, 0, 0);
+    }
+    .content-overlay-diablo{
+        border-left: 1rem solid rgb(0, 197, 0);
+    }
 }
