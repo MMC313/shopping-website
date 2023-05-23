@@ -31,7 +31,7 @@ let mobileHeader = (
             <a className='dropdown-content-link' href="/">Home</a>
             <a className='dropdown-content-link' href="">Shop Cards</a>
             <a className='dropdown-content-link' href="">Database</a>
-            <a className='dropdown-content-link' href="/contact">Contact</a>
+            <a className='dropdown-content-link' href="/contact">Contact Us</a>
         </div>
     </div>
 )
@@ -45,9 +45,9 @@ let desktopHeader = (
                 </div>
                 <ul className='header-links'>
                     <li><a className='header-link' href="/">HOME</a></li>
-                    <li><a className='header-link' href="">SHOP</a></li>
+                    <li><a className='header-link' href="">SHOP CARDS</a></li>
                     <li><a className='header-link' href="">DATABASE</a></li>
-                    <li><a className='header-link' href="/contact">CONTACT</a></li>
+                    <li><a className='header-link' href="/contact">CONTACT US</a></li>
                 </ul>
             </div>
             <div className='header-hub'>
