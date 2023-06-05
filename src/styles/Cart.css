@@ -1,0 +1,141 @@
+@keyframes slideInRightMobile{
+    from {
+        transform: translatex(100vw);
+    }
+
+    to {
+        transform: translatex(0);
+    }
+
+
+}
+
+@keyframes slideInRightDesktop{
+    from {
+        transform: translatex(30vw);
+    }
+
+    to {
+        transform: translatex(0);
+    }
+
+
+}
+
+@keyframes slideInLeftMobile{
+    from {
+        transform: translatex(0);
+    }
+
+    to {
+        transform: translatex(100vw);
+    }
+
+}
+
+@keyframes slideInLeftDesktop{
+    from {
+        transform: translatex(0);
+    }
+
+    to {
+        transform: translatex(30vw);
+    }
+
+}
+
+
+#cart-component{
+    position: fixed;
+    top: 0vh;
+    right: 0;
+    background-color: rgb(21, 21, 21);
+    flex-direction: column;
+    width:100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow-y: auto;
+    color: #f3f3f3;
+
+}
+
+.cart-hidden{
+    display: none;
+}
+
+.cart-hidden-animation{
+    display: flex;
+    animation: slideInLeftMobile .5s;
+}
+
+.cart-shown{
+    display: flex;
+    animation: slideInRightMobile .5s;
+}
+
+.cart-btn-container{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    margin-right: 2rem;
+}
+
+.cartCloseBtn{
+    border: none;
+    background-color: transparent;
+}
+
+.cartCloseIcon{
+    width: 2rem;
+    filter: brightness(0) invert(1) ;
+}
+
+
+.cart-shopping-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-shopping-title{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.cart-list{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    
+}
+
+.cart-checkout-btn{
+    padding: 1.5rem 5rem 1.5rem 5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    background-color: transparent;
+    border: 1px solid grey;
+    margin-bottom: 2rem;
+    color: #f3f3f3;
+}
+
+@media (min-width: 768px) {
+    #cart-component{
+        width: 30vw;
+
+    }
+
+    .cart-shown{
+        display: flex;
+        animation: slideInRightDesktop .5s;
+    }
+
+    .cart-hidden-animation{
+        display: flex;
+        animation: slideInLeftDesktop .5s;
+    }
+}
+
