@@ -139,11 +139,11 @@ h2,h3,h4{
         padding-top: 3rem;
         padding-bottom: 3rem;
         justify-content: center;
-        gap: 4rem;
+        gap: 2rem;
     }
 
     .home-content-award{
-        height: 7.5rem;
+        height: 5rem;
     }
 
 
