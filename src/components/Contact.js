@@ -11,7 +11,7 @@ function Contact(){
                         <div className='contact-content-card-section'>
                             <div className='contact-content-card-info-title'>Martian Lifetime Online Support</div>
                             <div className='contact-content-card-info'>Support@martianmachines.com</div>
-                            <div className='contact-content-card-info'>CustomerService@originpc.com</div>
+                            <div className='contact-content-card-info'>CustomerService@MM.com</div>
                         </div>
                         <div className='contact-content-card-section'>
                             <div className='contact-content-card-info-title'>24/7 Telephone Support</div>
@@ -37,16 +37,16 @@ function Contact(){
                         </div>
                         <div className='contact-content-card-section'>
                             <div className='contact-content-card-info-title'>Marketing</div>
-                            <div className='contact-content-card-info'>Marketing@originpc.com</div>
+                            <div className='contact-content-card-info'>Marketing@MM.com</div>
                         
                         </div>
                         <div className='contact-content-card-section'>
                             <div className='contact-content-card-info-title'>Government and Corporate</div>
-                            <div className='contact-content-card-info'>GCBD@originpc.com</div>
+                            <div className='contact-content-card-info'>GCBD@MM.com</div>
                         </div>
                         <div className='contact-content-card-section'>
                             <div className='contact-content-card-info-title'>General Inquries</div>
-                            <div className='contact-content-card-info'>Info@originpc.com</div>
+                            <div className='contact-content-card-info'>Info@MM.com</div>
                         </div>
                     </div>
                 </div>
@@ -55,12 +55,12 @@ function Contact(){
                     <div className='contact-content-card-information' >
                         <div className='contact-content-card-section'>
                             <div className='contact-content-card-info-title'>Headquarters</div>
-                            <div className='contact-content-card-info'>115 N. McCarthy Blvd.</div>
+                            <div className='contact-content-card-info'>999 N. McCarthy Blvd.</div>
                             <div className='contact-content-card-info'>Milpitas, CA 95035</div>
                         </div>
                         <div className='contact-content-card-section'>
                             <div className='contact-content-card-info-title'>Florida Location</div>
-                            <div className='contact-content-card-info'>12400 SW 134 Court Ste #8</div>
+                            <div className='contact-content-card-info'>999 SW 134 Court Ste #8</div>
                             <div className='contact-content-card-info'>Miami, FL 33186</div>
                         </div>
                         <div className='contact-content-card-section'>
@@ -70,7 +70,7 @@ function Contact(){
                         </div>
                         <div className='contact-content-card-section'>
                             <div className='contact-content-card-info-title'>Human Resources</div>
-                            <div className='contact-content-card-info'>HR@originpc.com</div>
+                            <div className='contact-content-card-info'>HR@MM.com</div>
                         </div>
                     </div>
                 </div>
