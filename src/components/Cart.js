@@ -7,12 +7,16 @@ function Cart(props){
 
     function closeCart(){
         let cartContainer = document.getElementById("cart-component")
-        cartContainer.classList.remove("cart-shown")
+
+        
         cartContainer.classList.add("cart-hidden-animation")
+        cartContainer.classList.remove("cart-shown")
+        cartContainer.classList.add("cart-hidden")
+        
         setTimeout(()=>{
             cartContainer.classList.remove("cart-hidden-animation")
             }
-            ,500
+            ,475
         )
     }
 

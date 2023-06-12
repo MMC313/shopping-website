@@ -14,6 +14,16 @@ function dropDown(){
     dropContentLink.forEach( link => link.classList.toggle("visible-dropdown-content-link"))
 }
 
+function hideDropDown(){
+    const dropContent = document.getElementById("dropdown-content-menu")
+    const dropContentLink = document.querySelectorAll('.dropdown-content-link')
+    if(dropContent){
+        dropContent.classList.remove("visible-dropdown-content")
+        dropContentLink.forEach( link => link.classList.remove("visible-dropdown-content-link"))
+    }
+
+}
+
 function Header(props){
 
     const [isMobile, setIsMobile] = useState("")
@@ -35,14 +45,19 @@ function Header(props){
         }else setIsMobile(true)
     }
 
-  
+    window.onclick = function(event) {
+        if(!event.target.matches(".dropdown-button-img")){
+            hideDropDown()
+        }
+
+    }
 
     let mobileHeader = (
         <div>
             <div className="header">
                 <h1 className='title'>MartianMachines</h1>
                 <div className='dropdown-button-container'>
-                    <button onClick={dropDown} className='dropdown-button'><img src={menu} alt="menu" className='svg' /></button>
+                    <button onClick={dropDown} className='dropdown-button'><img className='dropdown-button-img svg' src={menu} alt="menu"/></button>
                 </div>
                 <img src={logo} alt="logo" className='logo'/>
                 <div className='header-hub'>
@@ -50,9 +65,9 @@ function Header(props){
                     <button onClick={toggleCart} className='cart'><img src={cartIcon} alt="shopping cart" className='svg' /></button>
                 </div>
             </div>
-            <div className='dropdown-content'>
+            <div id='dropdown-content-menu' className='dropdown-content'>
                 <Link className='dropdown-content-link' to='/'>Home</Link>
-                <Link className='dropdown-content-link' to='/'>Shop</Link>
+                <Link className='dropdown-content-link' to='/shop'>Shop</Link>
                 <Link className='dropdown-content-link' to='/'>Database</Link>
                 <Link className='dropdown-content-link' to='/contact'>Contact</Link>
             </div>
@@ -68,7 +83,7 @@ function Header(props){
                 </div>
                 <div className='header-links'>
                     <Link className='header-link' to='/'>HOME</Link>
-                    <Link className='header-link' to='/'>SHOP</Link>
+                    <Link className='header-link' to='/shop'>SHOP</Link>
                     <Link className='header-link' to='/'>DATABASE</Link>
                     <Link className='header-link' to='/contact'>CONTACT</Link>
                 </div>
