@@ -1,8 +1,7 @@
 .footernav-links{
     display: none;
     background-color: black;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-evenly;
     padding: 2rem 0 2rem 0;
     font-family: sans-serif;
 }
