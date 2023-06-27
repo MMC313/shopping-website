@@ -10,7 +10,8 @@ import Header from './components/Header'
 import { useState } from "react";
 
 
-const baseUrl = "http://localhost:3000/results"
+// const baseUrl = "http://localhost:3000/results"
+const baseUrl = "https://martianmachines.up.railway.app/results"
 
 const options= {
     method: 'GET'
