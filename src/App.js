@@ -10,7 +10,20 @@ import Header from './components/Header'
 import { useState } from "react";
 
 
+const baseUrl = "http://localhost:3000/results"
 
+const options= {
+    method: 'GET'
+}
+
+async function loadInfo(){
+    let res = await fetch(baseUrl,options)
+    let data = await res.json()
+
+    return data;
+}
+
+loadInfo()
 
 function App(){
 
@@ -27,7 +40,7 @@ function App(){
                 <Header toggleCart={toggleCart}/>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/shop" element={<Shop/>} />
+                    <Route path="/shop" element={<Shop props={loadInfo()}/>}  />
                     <Route path="/contact" element={<Contact/>}/>
                 </Routes>
             </BrowserRouter>
