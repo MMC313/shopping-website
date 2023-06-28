@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/shopping-website/static/css/main.384db85e.css",
+    "main.js": "/shopping-website/static/js/main.85727257.js",
+    "static/media/d4.webp": "/shopping-website/static/media/d4.58acecb3e802459951b7.webp",
+    "static/media/naraka-overlayed.jpg": "/shopping-website/static/media/naraka-overlayed.b9c8083d028d1b2bbc70.jpg",
+    "static/media/M.png": "/shopping-website/static/media/M.dc10641699afb72c8d5e.png",
+    "static/media/tweak.png": "/shopping-website/static/media/tweak.3a073a6f0e111b433cc4.png",
+    "static/media/github.png": "/shopping-website/static/media/github.69ffd9cd5a846c976177.png",
+    "static/media/tech.png": "/shopping-website/static/media/tech.b0c16a96254e07733654.png",
+    "static/media/pc.webp": "/shopping-website/static/media/pc.56234b22d09dc4913829.webp",
+    "static/media/tomhw.avif": "/shopping-website/static/media/tomhw.1455ca916df011dbbf3b.avif",
+    "static/media/toms.avif": "/shopping-website/static/media/toms.acdcf01a70513867d230.avif",
+    "static/media/youtube.svg": "/shopping-website/static/media/youtube.993a2994b3d0e70225e185161721f680.svg",
+    "index.html": "/shopping-website/index.html",
+    "static/media/twitter.svg": "/shopping-website/static/media/twitter.410a9d14144a810542330f7d951ff2cf.svg",
+    "static/media/instagram.svg": "/shopping-website/static/media/instagram.7d97391465d60f2909c444d267ea80ff.svg",
+    "static/media/shopping-cart.svg": "/shopping-website/static/media/shopping-cart.33ce5d1587bf4a7a971bb64d9418e125.svg",
+    "static/media/menu.svg": "/shopping-website/static/media/menu.644fa295fdd5f662e642ba6bfb084239.svg",
+    "static/media/facebook.svg": "/shopping-website/static/media/facebook.54b6ed1796ae51e7991a86b99ceb8334.svg",
+    "static/media/twitch.svg": "/shopping-website/static/media/twitch.04cf8669f81068d40a26fd8bf1f75de9.svg",
+    "main.384db85e.css.map": "/shopping-website/static/css/main.384db85e.css.map",
+    "main.85727257.js.map": "/shopping-website/static/js/main.85727257.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.384db85e.css",
+    "static/js/main.85727257.js"
+  ]
+}
